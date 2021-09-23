@@ -1,7 +1,7 @@
 # Course Information
 
 This README file should contain course details, outline, guidelines, tips etc for instructors--essentially what instructors will need to run the course "out of the box".
-This course heavily skews towards the use of Visual Studio Code and Atom. At this time they are the two most popular code editors. Please update course content if that changes. 
+This course is based on the use of Visual Studio Code and Atom. At this time they are the two most popular code editors. Please update course content if that changes to give an overview of code editors. Prep can be utilized to update course content for a specific code editor to be featured. 
 <hr>
 
 _(Course slides are hosted at: link)_
@@ -11,7 +11,7 @@ A beginners guide to getting started with Visual Studio Code. Giving an overview
 
 ## Course Objectives
 
-Give students an overview of Code Editors.
+Give students an overview of  Code Editors. 
 
 ## Course Outline
 
@@ -26,7 +26,7 @@ Give students an overview of Code Editors.
 
 <!-- ## Suggested Exercises
 
-* Lorem ipsum dolor sit amet
+* Create an index file. Live code emmet abbreviations 
 * Lorem ipsum dolor sit amet -->
 
 ## Resources
@@ -42,3 +42,4 @@ Give students an overview of Code Editors.
 * When in doubt google it 
 * Accessibility extensions 
 * Students may need to see multiple examples of emmet 
+* Working knowlege or experience of multiple code editors is super helpful

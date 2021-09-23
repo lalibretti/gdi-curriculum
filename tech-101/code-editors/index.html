@@ -120,10 +120,11 @@
 					<li>Download process</li>
 					<li>Overview of layout</li>
 					<li>Settings</li>
-					<li>What is emmet?</li>
+					<li>What is Emmet?</li>
 					<li>Linters</li>
-					<li>Plugins plugins plugins...</li>
+					<li>Plugins & Packages</li>
 					<li>Troubleshooting/Debugging</li>
+					<li>Browser Based Editors</li>
 				</ul>
 				</section>
 			
@@ -139,14 +140,17 @@
 					<h3>Why use an editor?</h3>
 					<p>We need a place to write our code in a way that's readable for human eyes. A code editor will help us do that.</p>
 					<img src="https://qph.fs.quoracdn.net/main-qimg-b241b41c15ebe8a5678bca0950110379-mzj"alt="old programmer" width="500px" class="noborder"> </img>
-					<!-- We want to write and store code in a way that is easy for the human eye to interpret-->
+					<aside class="notes"> We want to write and store code in a way that is easy for the human eye to interpret</aside>
+					
 				</section>
 				
 			<!-- What editor do I choose? -->
 				<section>
 					<h2>What code editor do I choose?</h2>
 					<p>Picking a code editor is like choosing between a android or apple- once you pick one it's hard to switch.</p>
-					<!-- Personal anecdote trying to switch code editors for this class -->
+					<aside class="notes">
+						Personal anecdote trying to switch code editors for this class. It's really hard to switch!!  but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
 				</section>
 
 				<section>
@@ -159,12 +163,14 @@
 						</ul>
 						<br> 
 						<h5> ** as of September 2021</h5>
+						<aside>There are many more out there.</aside>
 					</section>
 				<section>
 					<h3> We're going to take a look at Visual Studio Code and Atom today</h3>
 					<h4>Why?</h4>
 					<h5 class="fragment">Because these are ranked as having the highest downloads.</h5>
 					<h5 class="fragment">And your instructor is a user of Visual Studio Code.</h5>
+					<aside>Personal anecdote: I surveyed the devs I know at square, dropbox, and carbonhealth to what they use. All but 1 uses VSCode. They started with Sublime and couldn't switch</aside>
 				</section>	
 
 				<section>
@@ -194,6 +200,7 @@
 						<li>4. Top file menu bar</li>
 						<li>5. Settings</li>
 					</ul>
+					<aside>We're going to do a walkthrough of Visual Studio Code. What do you notice when you look in the window? What are your first impressions? </aside>
 				</section>
 
 				<!--Why should I use Atom?-->
@@ -201,8 +208,8 @@
 					<h3>What about Atom?</h3>
 					<img src="https://seeklogo.com/images/A/atom-logo-19BD90FF87-seeklogo.com.png" alt="atom logo" width="100px"></img>
 					<p>Atom is free and open-source developed by Github. It's called the "hackable text editor for the 21st century". It's customizable via CoffeeScript and users can create their own packages</p>
-					<h4 class="fragment">Download<br> Atom</h4>
-					<a href="https://atom.io/" target="blank" class="fragment">https://atom.io/</a>
+					<h4>Download<br> Atom</h4>
+					<a href="https://atom.io/" target="blank">https://atom.io/</a>
 				</section>
 
 			
@@ -217,23 +224,24 @@
 						<li>4. Top file menu bar</li>
 						<li>5. Settings</li>
 					</ul>
+					<aside>What are your first impressions of Atom compared to visual studio code? </aside>
 				</section>
 
 				<!-- But how do we write code?-->
 				<section>
 					<h2>Let's look at some example code!</h2>
+					<aside>Look at example.html file. What do you notice about the code? </aside>
 				</section>
 
 				<!--Emmet-->
-				<section>
-					<h2>Emmet</h2>
-				</section>
+			
 
 				<section>
 					<h3>What's Emmet?</h3>
 					<p>A set of plug-ins for text editors that allow for high-speed coding and editing in HTML, XML, XSLT, and other structured code. <br>
 					In Visual Studio Code Emmet is pre-installed. In Atom you have to download the package. </p>
 					<a href="https://atom.io/packages/emmet" class="fragment">Download Emmet for Atom</a>
+					<aside>look at index1 file</aside>
 				</section>
 
 				<section>
@@ -242,22 +250,25 @@
 					<p><a href="https://docs.emmet.io/cheat-sheet/" target="blank">Emmet Cheat Sheet</a></p>
 					<p><a href="https://www.freecodecamp.org/news/write-html-css-faster-with-emmet-cheat-codes/" target="blank">Another Emmet Cheat Sheet</a></p>
 					<p><a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf" target="blank">A handy list of keyboard shortcuts</a></p>
+					
 				</section>
 
 				<!--Linters-->
 				<section>
 					<h2>Linters</h2>
+					<p>Our goal is write code to be read and processed by a computer. A linting tool will scan and analyze your code for programmatic and stylistic errors. </p>
 				</section>
 
 				<section>
 					<h3>Linters</h3>
 					<p>A linter is a tool to help improve your code.</p>
 					<p><a href='https://www.testim.io/blog/what-is-a-linter-heres-a-definition-and-quick-start-guide/' target="blank">Quick Start Guide to Linters</a></p>
+					<p> In Visual Studio Code there is a built-in linting tool. For python you would need to install py-lint. In Atom you need to download a linter</p>
 				</section>
 
 				<!-- Plugins -->
 				<section>
-					<h2>Plugins</h2>
+					<h2>Plugins & Packages</h2>
 				</section>
 
 				<section>
@@ -265,11 +276,12 @@
 					<p><a href="https://blog.devgenius.io/10-basic-vs-code-visual-studio-code-extensions-for-beginners-5f2b2aac7c3f" target="blank">A great list of plug-ins geared for beginners:</a></p>
 					<ul>
 						<li>Beautify</li>
-						<li>Prettier, it's a linter!</li>
+						<li class="fragment">available for Atom & VS Code:</li>
 						<li>Tabnine</li>
-						<li>And more!</li>
+						<li>Prettier, it's a linter!</li>
 					</ul>
-					<p>Let's tour the <a href="https://marketplace.visualstudio.com/" target="blank">Marketplace</a></p>
+					<p>Let's tour the  Visual Studio Code <a href="https://marketplace.visualstudio.com/" target="blank">Marketplace</a></p>
+					<p> Atom installs <a href="https://atom.io/packages">package</a></p>
 				</section>
 
 				<!-- Troubleshooting -->
@@ -277,6 +289,23 @@
 					<h3>Troubleshooting & Debugging</h3>
 					<p>Let's take a look at troubleshooting & debugging in Visual Studio Code.</p>
 					<p><a href="https://code.visualstudio.com/docs/introvideos/debugging" >Setting up for debuging in Visual Studio Code</a></p>
+				</section>
+
+				<!--Browser Based Editors-->
+				<section>
+					<h3>Browser Based Editors</h3>
+					<p>We can also write and store code in browser based editors</p>
+					<ul>
+						<li><a href="https://replit.com/~">Repl.it</a></li>
+						<li><a href="https://codesandbox.io/">codesandbox.io</a></li>
+						<li><a href="https://jsfiddle.net/">jsfiddle.net</a></li>
+						<li><a href="https://codepen.io/"></a></li>
+				</ul>
+				</section>
+
+				<!-- Q&A -->
+				<section>
+					<h2>Q&A</h2>
 				</section>
 
 				<!-- Course Conclusion -->
@@ -292,11 +321,6 @@
 					
 				</section>
 
-				<!-- OPTIONAL: Show and Tell  -->
-				<!-- <section>
-					<p>(Optional Slide)</p>
-					<h2>Share What You've Built!</h2>
-				</section> -->
 
 				<!-- MUST USE/SHOW SLIDE -->
 				<!-- Course Survey -->
@@ -306,10 +330,7 @@
 					<h3><a href="">Survey Link</a></h3>
 				</section>
 				
-				<!-- Q&A -->
-				<section>
-					<h2>Q&A</h2>
-				</section>
+				
 
 				<!-- Resources -->
 				<section>
@@ -319,7 +340,8 @@
 						<li><a href="https://code.visualstudio.com/learn/get-started/basics" target="blank">VS Code Installation Guide</a></li>
 						<li><a href="https://blog.devgenius.io/10-basic-vs-code-visual-studio-code-extensions-for-beginners-5f2b2aac7c3f" target="blank">Top Ten Extenstions for Beginners</a></li>
 						<li><a href="https://marketplace.visualstudio.com/" target="blank">Marketplace</a></li>
-							
+						<li><a href="https://www.section.io/engineering-education/atom-vs-visual-studio-code-functionality-and-features-comparison/">Atom vs Visual Studio Code</a></li>
+						<li><a href="https://www.codecademy.com/articles/f1-text-editors">Code Academy Getting Started with Atom</a></li>	
 					</ul>
 				</section>	
 
